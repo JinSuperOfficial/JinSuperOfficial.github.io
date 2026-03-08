@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Syntax on JinSuper工具站</title>
+        <link>https://JinSuperOfficial.github.io/categories/syntax/</link>
+        <description>Recent content in Syntax on JinSuper工具站</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>JinSuper</copyright>
+        <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://JinSuperOfficial.github.io/categories/syntax/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Markdown Syntax Guide</title>
+        <link>https://JinSuperOfficial.github.io/p/markdown-syntax-guide/</link>
+        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://JinSuperOfficial.github.io/p/markdown-syntax-guide/</guid>
+        <description>&lt;img src="https://JinSuperOfficial.github.io/p/markdown-syntax-guide/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg" alt="Featured image of post Markdown Syntax Guide" /&gt;&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;
+&lt;h2 id=&#34;headings&#34;&gt;Headings
+&lt;/h2&gt;&lt;p&gt;The following HTML &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt;—&lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; elements represent six levels of section headings. &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; is the highest section level while &lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; is the lowest.&lt;/p&gt;
+&lt;h1 id=&#34;h1&#34;&gt;H1
+&lt;/h1&gt;&lt;h2 id=&#34;h2&#34;&gt;H2
+&lt;/h2&gt;&lt;h3 id=&#34;h3&#34;&gt;H3
+&lt;/h3&gt;&lt;h4 id=&#34;h4&#34;&gt;H4
+&lt;/h4&gt;&lt;h5 id=&#34;h5&#34;&gt;H5
+&lt;/h5&gt;&lt;h6 id=&#34;h6&#34;&gt;H6
+&lt;/h6&gt;&lt;h2 id=&#34;paragraph&#34;&gt;Paragraph
+&lt;/h2&gt;&lt;p&gt;Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.&lt;/p&gt;
+&lt;p&gt;Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.&lt;/p&gt;
+&lt;h2 id=&#34;blockquotes&#34;&gt;Blockquotes
+&lt;/h2&gt;&lt;p&gt;The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a &lt;code&gt;footer&lt;/code&gt; or &lt;code&gt;cite&lt;/code&gt; element, and optionally with in-line changes such as annotations and abbreviations.&lt;/p&gt;
+&lt;h4 id=&#34;blockquote-without-attribution&#34;&gt;Blockquote without attribution
+&lt;/h4&gt;&lt;blockquote&gt;
+&lt;p&gt;Tiam, ad mint andaepu dandae nostion secatur sequo quae.
+&lt;strong&gt;Note&lt;/strong&gt; that you can use &lt;em&gt;Markdown syntax&lt;/em&gt; within a blockquote.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;blockquote-with-attribution&#34;&gt;Blockquote with attribution
+&lt;/h4&gt;&lt;blockquote&gt;
+&lt;p&gt;Don&amp;rsquo;t communicate by sharing memory, share memory by communicating.&lt;br&gt;
+— &lt;cite&gt;Rob Pike&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;tables&#34;&gt;Tables
+&lt;/h2&gt;&lt;p&gt;Tables aren&amp;rsquo;t part of the core Markdown spec, but Hugo supports supports them out-of-the-box.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;Age&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Bob&lt;/td&gt;
+&lt;td&gt;27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Alice&lt;/td&gt;
+&lt;td&gt;23&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id=&#34;inline-markdown-within-tables&#34;&gt;Inline Markdown within tables
+&lt;/h4&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Italics&lt;/th&gt;
+&lt;th&gt;Bold&lt;/th&gt;
+&lt;th&gt;Code&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt;italics&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;bold&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;code&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;A&lt;/th&gt;
+&lt;th&gt;B&lt;/th&gt;
+&lt;th&gt;C&lt;/th&gt;
+&lt;th&gt;D&lt;/th&gt;
+&lt;th&gt;E&lt;/th&gt;
+&lt;th&gt;F&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/td&gt;
+&lt;td&gt;Phasellus ultricies, sapien non euismod aliquam, dui ligula tincidunt odio, at accumsan nulla sapien eget ex.&lt;/td&gt;
+&lt;td&gt;Proin eleifend dictum ipsum, non euismod ipsum pulvinar et. Vivamus sollicitudin, quam in pulvinar aliquam, metus elit pretium purus&lt;/td&gt;
+&lt;td&gt;Proin sit amet velit nec enim imperdiet vehicula.&lt;/td&gt;
+&lt;td&gt;Ut bibendum vestibulum quam, eu egestas turpis gravida nec&lt;/td&gt;
+&lt;td&gt;Sed scelerisque nec turpis vel viverra. Vivamus vitae pretium sapien&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;code-blocks&#34;&gt;Code Blocks
+&lt;/h2&gt;&lt;h4 id=&#34;code-block-with-backticks&#34;&gt;Code block with backticks
+&lt;/h4&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;html&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;lang&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;en&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;meta&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;charset&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;utf-8&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Example HTML5 Document&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Test&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;html&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h4 id=&#34;code-block-indented-with-four-spaces&#34;&gt;Code block indented with four spaces
+&lt;/h4&gt;&lt;pre&gt;&lt;code&gt;&amp;lt;!doctype html&amp;gt;
+&amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;
+&amp;lt;head&amp;gt;
+  &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;
+  &amp;lt;title&amp;gt;Example HTML5 Document&amp;lt;/title&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+  &amp;lt;p&amp;gt;Test&amp;lt;/p&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;code-block-with-hugos-internal-highlight-shortcode&#34;&gt;Code block with Hugo&amp;rsquo;s internal highlight shortcode
+&lt;/h4&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;html&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;lang&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;en&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;meta&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;charset&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;utf-8&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Example HTML5 Document&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Test&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;html&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h4 id=&#34;diff-code-block&#34;&gt;Diff code block
+&lt;/h4&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-diff&#34; data-lang=&#34;diff&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[dependencies.bevy]
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git = &amp;#34;https://github.com/bevyengine/bevy&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;rev = &amp;#34;11f52b8c72fc3a568e8bb4a4cd1f3eb025ac2e13&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gd&#34;&gt;- features = [&amp;#34;dynamic&amp;#34;]
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gd&#34;&gt;&lt;/span&gt;&lt;span class=&#34;gi&#34;&gt;+ features = [&amp;#34;jpeg&amp;#34;, &amp;#34;dynamic&amp;#34;]
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;list-types&#34;&gt;List Types
+&lt;/h2&gt;&lt;h4 id=&#34;ordered-list&#34;&gt;Ordered List
+&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;First item&lt;/li&gt;
+&lt;li&gt;Second item&lt;/li&gt;
+&lt;li&gt;Third item&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;unordered-list&#34;&gt;Unordered List
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;List item&lt;/li&gt;
+&lt;li&gt;Another item&lt;/li&gt;
+&lt;li&gt;And another item&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;nested-list&#34;&gt;Nested list
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;Fruit
+&lt;ul&gt;
+&lt;li&gt;Apple&lt;/li&gt;
+&lt;li&gt;Orange&lt;/li&gt;
+&lt;li&gt;Banana&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Dairy
+&lt;ul&gt;
+&lt;li&gt;Milk&lt;/li&gt;
+&lt;li&gt;Cheese&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;other-elements--abbr-sub-sup-kbd-mark&#34;&gt;Other Elements — abbr, sub, sup, kbd, mark
+&lt;/h2&gt;&lt;p&gt;&lt;abbr title=&#34;Graphics Interchange Format&#34;&gt;GIF&lt;/abbr&gt; is a bitmap image format.&lt;/p&gt;
+&lt;p&gt;H&lt;sub&gt;2&lt;/sub&gt;O&lt;/p&gt;
+&lt;p&gt;X&lt;sup&gt;n&lt;/sup&gt; + Y&lt;sup&gt;n&lt;/sup&gt; = Z&lt;sup&gt;n&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Press &lt;kbd&gt;CTRL&lt;/kbd&gt; + &lt;kbd&gt;ALT&lt;/kbd&gt; + &lt;kbd&gt;Delete&lt;/kbd&gt; to end the session.&lt;/p&gt;
+&lt;p&gt;Most &lt;mark&gt;salamanders&lt;/mark&gt; are nocturnal, and hunt for insects, worms, and other small creatures.&lt;/p&gt;
+&lt;h2 id=&#34;hyperlinked-image&#34;&gt;Hyperlinked image
+&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://google.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img src=&#34;https://www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_272x92dp.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Google&#34;
+	
+	
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;The above quote is excerpted from Rob Pike&amp;rsquo;s &lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=PAAkCSZUG1c&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;talk&lt;/a&gt; during Gopherfest, November 18, 2015.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description>
+        </item>
+        <item>
+        <title>微信群聊&lt;宇智波一族&gt;群聊指南</title>
+        <link>https://JinSuperOfficial.github.io/p/%E5%BE%AE%E4%BF%A1%E7%BE%A4%E8%81%8A%E5%AE%87%E6%99%BA%E6%B3%A2%E4%B8%80%E6%97%8F%E7%BE%A4%E8%81%8A%E6%8C%87%E5%8D%97/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://JinSuperOfficial.github.io/p/%E5%BE%AE%E4%BF%A1%E7%BE%A4%E8%81%8A%E5%AE%87%E6%99%BA%E6%B3%A2%E4%B8%80%E6%97%8F%E7%BE%A4%E8%81%8A%E6%8C%87%E5%8D%97/</guid>
+        <description>&lt;img src="https://JinSuperOfficial.github.io/p/%E5%BE%AE%E4%BF%A1%E7%BE%A4%E8%81%8A%E5%AE%87%E6%99%BA%E6%B3%A2%E4%B8%80%E6%97%8F%E7%BE%A4%E8%81%8A%E6%8C%87%E5%8D%97/pict.jpg" alt="Featured image of post 微信群聊&lt;宇智波一族&gt;群聊指南" /&gt;&lt;h1 id=&#34;开学季火之意志传承火影忍者宇智波一组社群官方全指南&#34;&gt;【开学季·火之意志传承】火影忍者「宇智波一组」社群官方全指南
+&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;2026年2月27日修订版 | 最终解释权归小严awa与JinSuper所有 | 本规范自发布之日起正式生效&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;群等级快速查看-51-等级排名序列51-等级排名序列&#34;&gt;群等级快速查看: &lt;a class=&#34;link&#34; href=&#34;#51-%e7%ad%89%e7%ba%a7%e6%8e%92%e5%90%8d%e5%ba%8f%e5%88%97&#34; &gt;&amp;lt;51 等级排名序列&amp;gt;&lt;/a&gt;
+&lt;/h4&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;gt; 木叶飞舞之处，火亦生生不息。&amp;lt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;在2026年开学季来临之际，火影忍者「宇智波一组」社群正式发布全新修订版官方全指南。这里是以火影忍者IP为精神内核、多元化游戏交流为核心主体的同好集结地，是所有怀揣热爱与善意的伙伴们共同打造的线上木叶村。本文将全面详解社群准入规则、全员行为准则、实力评级体系、专属赛事机制、福利回馈计划、开学季运营安排等全部核心内容，让每一位新老成员都能清晰读懂社群的秩序与温度，共同守护这片属于我们的热爱天地。
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;一社群基本概况&#34;&gt;一、社群基本概况
+&lt;/h2&gt;&lt;p&gt;火影忍者「宇智波一组」社群，始终秉持「开放包容、友好平等、热爱至上」的核心原则，拒绝无意义的对立与冲突，致力于为火影爱好者、游戏同好者打造一个无拘无束、真诚交流的线上空间。无论是想交流火影剧情与角色、分享各类游戏攻略与日常，还是单纯找同好闲聊放松，这里都能找到属于你的位置。&lt;/p&gt;
+&lt;h3 id=&#34;11-核心管理团队&#34;&gt;1.1 核心管理团队
+&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;职务&lt;/th&gt;
+&lt;th&gt;昵称&lt;/th&gt;
+&lt;th&gt;核心权责&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;群主&lt;/td&gt;
+&lt;td&gt;小严awa&lt;/td&gt;
+&lt;td&gt;社群统筹管理、规则最终修订、赛事全程监督、福利发放&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;群管理&lt;/td&gt;
+&lt;td&gt;JinSuper&lt;/td&gt;
+&lt;td&gt;规则完善、社群运营、违规行为核查、申诉处理&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;群管理&lt;/td&gt;
+&lt;td&gt;Leo&lt;/td&gt;
+&lt;td&gt;社群秩序维护、赛事裁判、吉祥物&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;12-开学季特别运营说明&#34;&gt;1.2 开学季特别运营说明
+&lt;/h3&gt;&lt;p&gt;随着2026年新学期的正式开启，社群管理组核心成员即将进入校园学习生活。为保障社群正常运营，同时不影响各位成员的日常交流体验，我们在此做出正式说明：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;开学后，管理组将在课余时间处理社群日常事务、核查违规行为、更新等级排名，非紧急事务可能存在一定延迟，敬请各位成员谅解。&lt;/li&gt;
+&lt;li&gt;若各位成员有任何规则疑问、优化建议、违规举报、申诉诉求，均可通过官方固定邮箱渠道与我们取得联系，我们将在看到消息后的第一时间予以回复。
+&lt;ul&gt;
+&lt;li&gt;JinSuper专属联系邮箱：&lt;code&gt;jinxu114514@gmail.com&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;小严awa专属联系邮箱：&lt;code&gt;174482957@qq.com&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;本指南完整版同步收录于&lt;a class=&#34;link&#34; href=&#34;https://jinsuperofficial.github.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&amp;lt;JinSuper个人官方网站&amp;gt;&lt;/a&gt;，后续所有规则修订、赛事公告、福利通知均会在网站同步更新：&lt;a class=&#34;link&#34; href=&#34;https://jinsuperofficial.github.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;JinSuper&amp;rsquo;s Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;本指南专属专栏页面将于2026年3月7日正式发布，访问地址：&lt;a class=&#34;link&#34; href=&#34;https://jinsuperofficial.github.io/p/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;「宇智波一族群聊守则」&lt;/a&gt; 。该页面部署于Github平台，若无法正常访问，可自行查阅相关资料解决Github访问问题。&lt;/li&gt;
+&lt;li&gt;我们始终欢迎所有成员为本社群的规则条约、运营安排、活动策划提出合理的优化建议，共同完善我们的线上木叶村。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;13-社群荣誉贡献公示&#34;&gt;1.3 社群荣誉贡献公示
+&lt;/h3&gt;&lt;p&gt;感谢以下成员为社群建设做出的爱心贡献，你们的支持是社群长久运营的重要动力，所有贡献成员均已纳入&lt;a class=&#34;link&#34; href=&#34;#51-%e7%ad%89%e7%ba%a7%e6%8e%92%e5%90%8d%e5%ba%8f%e5%88%97&#34; &gt;「夯」&lt;/a&gt;荣誉等级体系，享有对应专属权益：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#51-%e7%ad%89%e7%ba%a7%e6%8e%92%e5%90%8d%e5%ba%8f%e5%88%97&#34; &gt;【夯】&lt;/a&gt;💤：向社群公益捐款2.3元&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#51-%e7%ad%89%e7%ba%a7%e6%8e%92%e5%90%8d%e5%ba%8f%e5%88%97&#34; &gt;【夯】&lt;/a&gt;宇智波齐夏：向社群公益捐款2.3元&lt;/li&gt;
+&lt;li&gt;【管理员】JinSuper：向社群公益捐款若干&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;二木叶村准入准则&#34;&gt;二、木叶村准入准则
+&lt;/h2&gt;&lt;p&gt;社群的核心底线不可触碰，我们在此明确划定准入红线与开放范围，所有入群成员均需默认遵守本准则，入群即视为认可本准则全部内容。&lt;/p&gt;
+&lt;h3 id=&#34;21-绝对禁入名单&#34;&gt;2.1 绝对禁入名单
+&lt;/h3&gt;&lt;p&gt;本社群坚决禁止持负面反动立场、历史虚无主义立场的相关人员加入，这是我们不可逾越的核心底线。具体包括：反动派、国民党相关负面立场人员、希特勒、汪精卫相关推崇者。以上人员一经发现，立即移出社群，永久拒绝入群申请。&lt;/p&gt;
+&lt;h3 id=&#34;22-全开放准入范围&#34;&gt;2.2 全开放准入范围
+&lt;/h3&gt;&lt;p&gt;在严格遵守核心底线的前提下，我们以极致包容的姿态，欢迎所有心怀善意的伙伴加入。无论你是男生、女生，还是武装直升机、重型坦克、小鸟直升机、福瑞爱好者、二次元角色厨、三体人、天命之子、吊机、百吨王、电风扇、Sans爱好者、疯医同好、露娜玩家、强化券收藏家、卡莫纳人、威龙爱好者、辣条达人、外星人、二向簿持有者，只要你心怀善意、愿意遵守社群规则，我们都敞开大门欢迎你的到来。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;三群成员核心行为守则&#34;&gt;三、群成员核心行为守则
+&lt;/h2&gt;&lt;p&gt;为维护社群健康有序的交流环境，保障全体成员的合法权益与交流体验，我们制定了以下全员需遵守的行为准则，所有成员入群即视为认可并自愿遵守本守则全部条款。&lt;/p&gt;
+&lt;h3 id=&#34;31-言论表达规范&#34;&gt;3.1 言论表达规范
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;全体成员享有在合规范围内理性表达个人观点、抒发个人情绪的权利，社群尊重每一位成员的合理表达自由。&lt;/li&gt;
+&lt;li&gt;严禁发表辱骂、人身攻击、恶意诋毁、造谣诽谤、阴阳怪气等违规言论；单次违规予以【警告提醒】，累计3次及以上违规者，直接移出本社群。&lt;/li&gt;
+&lt;li&gt;成员发表言论应坚守文明底线，不得恶意挑起争端、煽动对立，不得针对他人外貌、身份、生活、喜好进行人身攻击与恶意拉踩。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;32-内容发布规范&#34;&gt;3.2 内容发布规范
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;严禁发布色情低俗相关内容&lt;/strong&gt;：包括但不限于色情图片/视频/动图/音频/链接、露骨低俗文字/性暗示段子/擦边言论、涉色情交易/招嫖/约炮引流信息、对群成员的性骚扰/低俗荤玩笑/性化冒犯言论、涉未成年人色情擦边内容、低俗平台/账号/二维码引流内容；同时严禁以私信形式对群内成员发送低俗色情内容、实施性骚扰。违规处理：首次发布轻微擦边、低俗段子类内容，予以【警告提醒】并强制撤回内容；多次违规且屡教不改者，由群管理或群主酌情移出社群，「夯」等级成员除外。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;严禁发布涉政敏感、违法违规相关不良内容&lt;/strong&gt;：包括但不限于涉政敏感言论、违法违规信息、暴力血腥内容、赌博相关信息、恶意病毒链接、诈骗引流内容等。违规处理：一经发现先给予【严重警告】，多次且屡教不改者，由群管理或群主酌情移出社群。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;严禁任何形式的广告引流、商业推广行为&lt;/strong&gt;：包括但不限于商品带货、微商推广、服务售卖等商业硬广/软广；二维码、公众号、私域社群、外部平台等引流内容；游戏代练、账号交易、外挂/脚本、私服推广等游戏相关违规推广；以福利、抽奖、互助等名义诱导跳转、添加好友、拉群的引流行为；同时严禁以私信形式对群内成员发送广告、推广、引流信息，恶意骚扰群成员。违规处理：首次轻微违规予以【警告提醒】，累计3次及以上或发布恶意引流、违规推广内容，予以【严重警告】，屡教不改者酌情移出社群。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;严禁任何形式的刷屏霸屏、恶意扰乱社群秩序的行为&lt;/strong&gt;：包括但不限于连续发送重复内容/无意义字符/表情包/图片/语音霸屏、单条发送大段无意义冗余文字、拆分单句话逐条发送、恶意刷口令/红包/链接刷屏、重复发送无效信息、在群内正常交流时恶意刷屏覆盖他人有效发言。违规处理：首次违规予以【警告提醒】，累计3次及以上或单次严重恶意刷屏，先给予警告，多次违规且屡教不改者，由群管理或群主酌情移出社群，「夯」等级成员除外。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;33-交流互动规范&#34;&gt;3.3 交流互动规范
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;本群支持多元化游戏相关话题的交流讨论，鼓励成员分享游戏经验、攻略、日常等相关内容；严禁因游戏观点分歧、话题偏好不同，发生成员间辱骂互撕、恶意挑衅、人身攻击、挂人引战等冲突行为。此类违规行为一经查实，涉事人员将直接予以永久移出本社群的处理。&lt;/li&gt;
+&lt;li&gt;允许成员基于共同的游戏兴趣、交流偏好，自发组建同好交流圈层，支持圈层内的友好互动与交流；严禁各类圈层之间、圈层内部发生辱骂对立、恶意拉踩、抱团攻击、群体引战等违规行为，不得组建具有排他性、恶意攻击性的小团体。此类事件一经查实，参与该违规事件的全部相关人员，均予以移出本社群处理。&lt;/li&gt;
+&lt;li&gt;社群内非重大事项、非官方公告，严禁频繁@所有人，避免打扰其他成员的正常交流体验。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;四违规行为与累计处罚细则&#34;&gt;四、违规行为与累计处罚细则
+&lt;/h2&gt;&lt;p&gt;为保障规则的公平性与严肃性，我们制定了统一的警告累计处罚规则，本规则适用于除永久移出类严重违规外的所有违规行为，所有警告记录将由管理组统一存档公示。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;警告累计次数&lt;/th&gt;
+&lt;th&gt;对应处罚标准&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;累计达5次&lt;/td&gt;
+&lt;td&gt;移出社群，封禁时长至少【2小时】，到期后可重新申请入群&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;累计达10次&lt;/td&gt;
+&lt;td&gt;移出社群，封禁时长至少【1个自然日】，到期后可重新申请入群&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;累计达15次&lt;/td&gt;
+&lt;td&gt;移出社群，封禁时长至少【1个阳历月份】，到期后可重新申请入群&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;累计达20次&lt;/td&gt;
+&lt;td&gt;永久移出社群，不得再次申请加入本社群&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;补充说明：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;针对辱骂互撕、恶意引战、抱团攻击等严重破坏社群秩序的行为，无需经过警告累计，一经查实直接永久移出社群。&lt;/li&gt;
+&lt;li&gt;「夯」等级成员享有轻微违规豁免权，色情低俗、刷屏类轻微违规，可酌情减轻处罚，严重违规不享有豁免权。&lt;/li&gt;
+&lt;li&gt;成员对违规处罚有异议的，可通过官方邮箱渠道提交申诉，由管理组复核后给出最终处理结果。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;五群称号等级体系与晋升规则&#34;&gt;五、群称号等级体系与晋升规则
+&lt;/h2&gt;&lt;p&gt;我们建立了完整的群称号等级体系，等级代表着成员在社群内的荣誉、贡献与实力，所有成员均可通过合规方式提升自身等级，享有对应等级的专属权益。&lt;/p&gt;
+&lt;h3 id=&#34;51-等级排名序列&#34;&gt;5.1 等级排名序列
+&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;等级称号&lt;/th&gt;
+&lt;th&gt;等级定位&lt;/th&gt;
+&lt;th&gt;当前在榜成员&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;世界第一&lt;/td&gt;
+&lt;td&gt;群主 &amp;amp; 管理员们&lt;/td&gt;
+&lt;td&gt;Leo、Jinsuper、小严awa&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;夯爆了&lt;/td&gt;
+&lt;td&gt;社这是村子里的“传说级”存在，因为他们为社群捐过款、出过力&lt;/td&gt;
+&lt;td&gt;💤、宇智波齐夏&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;人上人&lt;/td&gt;
+&lt;td&gt;一人之下万人之上，社群核心活跃成员&lt;/td&gt;
+&lt;td&gt;无&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;NPC&lt;/td&gt;
+&lt;td&gt;小有成就，社群优质活跃成员&lt;/td&gt;
+&lt;td&gt;无&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;路边一条&lt;/td&gt;
+&lt;td&gt;普通成员，社群基础活跃成员&lt;/td&gt;
+&lt;td&gt;无&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;平民百姓&lt;/td&gt;
+&lt;td&gt;社群默认初始称号&lt;/td&gt;
+&lt;td&gt;其他全体群成员&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;52-等级晋升规则&#34;&gt;5.2 等级晋升规则
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;全体成员均享有平等的等级晋升权利，可通过&lt;strong&gt;单挑挑战&lt;/strong&gt;的方式提升自身社群内等级排名。&lt;/li&gt;
+&lt;li&gt;单挑挑战核心规则（缺一不可，否则挑战结果无效，不予登记排名变更）：
+&lt;ul&gt;
+&lt;li&gt;挑战对象需为对应目标等级的在榜成员，不可跨多个层级越级挑战；&lt;/li&gt;
+&lt;li&gt;单挑挑战全程必须有群主（小严awa）在场观战，全程监督对决过程；&lt;/li&gt;
+&lt;li&gt;挑战结果需经对战双方、群主三方共同确认，方为有效结果。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;挑战成功后，群主将在24小时内更新社群内等级排名表，同步在群内公示晋升结果。&lt;/li&gt;
+&lt;li&gt;对社群有重大贡献、公益捐款的成员，可由管理组直接授予对应荣誉等级，无需通过单挑挑战晋升。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;53-群称号使用规范&#34;&gt;5.3 群称号使用规范
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;成员可在自己的群昵称前，添加自定义的专属群称号，彰显个人特色。&lt;/li&gt;
+&lt;li&gt;严禁成员冒充、使用比自身当前等级更高的层级称号，一经查实，将予以严重警告并强制修改昵称，屡教不改者将按违规条款予以移出社群处理，由违规者自行承担全部后果。&lt;/li&gt;
+&lt;li&gt;自定义群称号不得包含违法违规、辱骂低俗、恶意引战内容，不得冒充群主、管理员及其他成员身份。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;六社群专属活动与福利机制&#34;&gt;六、社群专属活动与福利机制
+&lt;/h2&gt;&lt;h3 id=&#34;61-专属擂台赛主题活动&#34;&gt;6.1 专属擂台赛主题活动
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;本社群将于本周末举办官方专属擂台赛主题活动，活动由群主小严awa与JinSuper全程统筹监督。&lt;/li&gt;
+&lt;li&gt;本次擂台赛设置参与名额上限为12人，采用自愿报名原则，报满即止；群主不参与本次赛事竞技，仅担任赛事监督与裁判工作。&lt;/li&gt;
+&lt;li&gt;本次赛事采用单挑对决晋级制，全程赛事需在群主监督观战下进行，赛事结果以群主最终判定为准。&lt;/li&gt;
+&lt;li&gt;本次擂台赛最终获胜者，将授予本群正式管理员权限，享有本群对应管理权益。&lt;/li&gt;
+&lt;li&gt;赛事参与成员需严格遵守赛事规则，严禁作弊、恶意挑衅、辱骂对手等行为，违规者将直接取消参赛资格，并按本规范违规条款同步处理。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;62-社群福利回馈机制&#34;&gt;6.2 社群福利回馈机制
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;社群专属福利由群主(小严awa)统筹发放，群主将不定期在群内发布专属惊喜福利，回馈本群活跃成员。&lt;/li&gt;
+&lt;li&gt;福利发放对象为本群遵守群规、积极参与群内交流、赛事活动、为社群做出贡献的活跃成员，具体福利内容、发放规则以群主发布的实时通知为准。&lt;/li&gt;
+&lt;li&gt;存在违规记录的成员，将取消当期及后续1-3期的福利领取资格，具体以违规情节严重程度判定。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;七附则与说明&#34;&gt;七、附则与说明
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;本规范未尽事宜，由群主小严awa与JinSuper根据社群实际情况，进行补充修订，补充修订内容将在群内同步公示，公示后即生效。&lt;/li&gt;
+&lt;li&gt;全体成员应自觉遵守本规范，共同维护群内友好和谐的交流环境，守护我们的线上木叶村。&lt;/li&gt;
+&lt;li&gt;本规范标注的群内等级排名、赛事规则、福利机制等内容，均为本规范不可分割的组成部分，与正文条款具有同等效力。&lt;/li&gt;
+&lt;li&gt;本规范规定与排行部分由小严awa修订，JinSuper完善，精简版内容由豆包AI总结，ASK问答部分由JinSuper用豆包AI辅助完成，Leo为本社群专属吉祥物。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;附录群规常见问题qa&#34;&gt;附录：群规常见问题Q&amp;amp;A
+&lt;/h2&gt;&lt;h3 id=&#34;q群内可以正常表达个人情绪吗哪些行为属于明确违规&#34;&gt;Q：群内可以正常表达个人情绪吗？哪些行为属于明确违规？
+&lt;/h3&gt;&lt;p&gt;A：成员可在合规范围内理性表达个人观点与情绪；严禁发表辱骂、人身攻击、恶意诋毁类言论，严禁成员间发生辱骂互撕、恶意挑衅、圈层辱骂对立等冲突行为，以上均属于违规行为。&lt;/p&gt;
+&lt;h3 id=&#34;q单次发表辱骂人身攻击类违规言论会受到什么处理累计违规多少次会被移出群聊&#34;&gt;Q：单次发表辱骂、人身攻击类违规言论，会受到什么处理？累计违规多少次会被移出群聊？
+&lt;/h3&gt;&lt;p&gt;A：单次发表辱骂、人身攻击、恶意诋毁类违规言论，将予以警告提醒；累计3次及以上违规者，将直接移出本群。&lt;/p&gt;
+&lt;h3 id=&#34;q群内可以聊其他游戏相关话题吗有什么相关限制&#34;&gt;Q：群内可以聊其他游戏相关话题吗？有什么相关限制？
+&lt;/h3&gt;&lt;p&gt;A：本群支持多元化游戏相关话题的交流讨论；但严禁因话题交流发生成员间辱骂互撕、恶意挑衅、人身攻击等冲突行为，此类违规行为一经查实，涉事人员将直接予以永久移出本群的处理。&lt;/p&gt;
+&lt;h3 id=&#34;q群内可以和同好自发组建交流圈层吗有什么禁止性规定&#34;&gt;Q：群内可以和同好自发组建交流圈层吗？有什么禁止性规定？
+&lt;/h3&gt;&lt;p&gt;A：允许成员基于共同兴趣自发组建交流圈层；严禁各类圈层间或圈层内部发生辱骂对立、恶意攻击等违规行为，此类事件一经查实，参与该违规事件的全部相关人员，均予以移出本群处理。&lt;/p&gt;
+&lt;h3 id=&#34;q成员之间发生互骂恶意挑衅的冲突行为会受到什么处罚&#34;&gt;Q：成员之间发生互骂、恶意挑衅的冲突行为，会受到什么处罚？
+&lt;/h3&gt;&lt;p&gt;A：此类违规行为一经查实，涉事人员将直接予以永久移出本群的处理。&lt;/p&gt;
+&lt;h3 id=&#34;q圈层内部或圈层之间发生辱骂对立恶意攻击事件处罚范围如何界定&#34;&gt;Q：圈层内部或圈层之间发生辱骂对立、恶意攻击事件，处罚范围如何界定？
+&lt;/h3&gt;&lt;p&gt;A：该违规事件一经查实，参与事件的全部相关人员，均予以移出本群处理。&lt;/p&gt;
+&lt;h3 id=&#34;q通过单挑挑战提升群内等级排名必须满足的核心要求是什么&#34;&gt;Q：通过单挑挑战提升群内等级排名，必须满足的核心要求是什么？
+&lt;/h3&gt;&lt;p&gt;A：单挑挑战全程必须有群主（小严awa）在场观战，且挑战结果经对战双方、群主三方共同确认，结果方为有效，否则不予登记排名变更。&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
